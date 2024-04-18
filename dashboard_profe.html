@@ -1,0 +1,50 @@
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">        
+        <meta name="description" content="">
+        <title>Dashboard Profesor</title>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">        
+    </head>
+  <body>
+    <nav class="brown lighten-3" role="navigation"> 
+        <div class="nav-wrapper container">
+            <a href="#" class="brand-logo">Perfil del Profesor</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="index.html">Cerrar Sesión</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1>Bienvenido Profesor</h1>
+        <div id="cursos" class="row">
+            <div class="col s12 m6">
+                <div class="card brown lighten-4"> 
+                    <div class="card-content white-text">
+                        <span class="card-title">Curso de Desarrollo Web</span>
+                        <button class="btn yellow darken-3" onclick="mostrarDescripcion(this)">Ver descripción</button> <!-- Cambio de color del botón a mostaza -->
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6">
+                <div class="card brown lighten-4"> 
+                    <div class="card-content white-text">
+                        <span class="card-title">Curso de Ingenería de Software</span>
+                        <button class="btn yellow darken-3" onclick="mostrarDescripcion(this)">Ver descripción</button> <!-- Cambio de color del botón a mostaza -->
+                    </div>
+                </div>
+            </div>
+            
+                </div>
+            </div>
+        </div>
+    </div>
+  </body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/dashboardprofe.js"></script>
+</html>
